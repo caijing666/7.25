@@ -1,0 +1,45 @@
+1. 在html文件中的代码：
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="Stylesheet" href="css/css1.css"/>
+    <style type="text/css">
+    #input1{
+        background-color: blueviolet;
+        border-style: dotted;
+    }
+    input.cj{
+        text-align: right;
+        color:burlywood;
+    }
+    label.cj{
+        border-block-width: 20px;
+        border-block-color: red
+    }
+     h1,h2{
+         font-size: cj-large;
+         
+          color:chartreuse
+    }
+
+    </style>
+</head>
+<body>
+    <input type="text" value="这是一个输入框："id=input1" />
+    <input type="button",value="这是一个按钮" style="width: 150px;height: 50px;cursor: wait" />
+    <input class="cj" type="text" value="学生"/>
+    <lable class="cj">通信</lable>
+    <h1>hello</h1>
+    <h2>this is a nice day</h2>
+</body>
+</html>
+
+2. 在与htmlt同一个文件夹下的css1.css文件
+input{
+    background-color: blueviolet;
+}
